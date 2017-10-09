@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    line-height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.form-control {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    padding: 0 4px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+body {
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+
+.menu-wrapper {
+    background: #fff;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+}
+
+.sch-condition {
+    border-bottom: 1px dashed #ccc;
+    padding: 10px 4px;
+    margin-bottom: 10px;
+}
+
+.sch-item {
+    float: left;
+    margin-left: 12px;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.menu-container {
+    padding: 15px;
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+.menu-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 0 10px;
+    width: 300px;
+}
+
+.menu-block {
+    border:1px solid #ddd;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #415164;
+    padding:0 15px;
+    height: 40px;
+    color: #FFF;
+}
+
+
+.menu-header h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-option {
+
+}
+.menu-option i{
+    font-size: 22px;
+}
+.menu-items{
+    margin: 5px 20px;
+}
+.menu-items div{
+    line-height: 30px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+.menu-items div:hover{
+    background: #eee;
+}
+.menu-items .selected{
+    background:#ddd;
+}
+
+.menu-items input{
+    margin-right: 8px;
+}
+.menu-items span{
+    margin-right: 8px;
+}
+.menu-items i{
+    font-size: 18px;
+    cursor: pointer;
+}
+.loading{
+    padding:20px;
+}
+.hidden{
+    display: none !important;
+}
